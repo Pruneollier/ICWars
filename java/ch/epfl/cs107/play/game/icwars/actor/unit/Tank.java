@@ -17,7 +17,6 @@ public class Tank extends Unit{
         } else if(faction == Faction.ENEMY){
             setName("icwars/enemyTank");
         }
-
         setSprite();
     }
 }

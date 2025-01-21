@@ -1,12 +1,14 @@
 package ch.epfl.cs107.play.game.icwars.actor;
 
 import ch.epfl.cs107.play.game.areagame.Area;
-import ch.epfl.cs107.play.game.areagame.handler.AreaInteractionVisitor;
+import ch.epfl.cs107.play.game.areagame.actor.Interactable;
+import ch.epfl.cs107.play.game.areagame.actor.Interactor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 
 import java.util.List;
 
-public class Soldat extends Unit{
+
+public class Soldat extends Unit {
     private static final int SOLDIER_DAMAGE = 2;
     private static final int SOLDIER_RAY = 2;
     private static final int SOLDIER_MAXHP = 5;
@@ -22,4 +24,5 @@ public class Soldat extends Unit{
         }
         setSprite();
     }
+
 }
